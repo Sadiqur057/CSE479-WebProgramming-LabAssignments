@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            width: 400px;
+            border: 5px solid black;
+            padding: 15px;
+        }
+        .label{
+            width: 30px;
+            height: 20px;
+            size: 10;
+            direction: rtl;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="task1">
+        <form action="task01.html" method="GET">
+            <table>
+                <h1>Registration form</h1>
+                <tr>
+                    <td class="label">:User id</td>
+                    <td><input type="text" maxlength="12" minlength="5" required></td>
+    
+                </tr>
+                <tr>
+                    <td class="label" required>:Password</td>
+                    <td><input type="password"maxlength="12" minlength="5"></td>
+    
+                </tr>
+                <tr>
+                    <td class="label" required>:Name</td>
+                    <td><input type="text" size="30"></td>
+    
+                </tr>
+                <tr>
+                    <td class="label">:Address</td>
+                    <td><input type="text" size="30"></td>
+    
+                </tr>
+                <tr>
+                    <td class="label">:Country</td>
+                    <td><select name="country" id="country" required>
+                        <option value="null">Please select a country</option>
+                        <option value="bd">Bangladesh</option>
+                        <option value="bd">India</option>
+                    </select></td>
+    
+                </tr>
+                <tr>
+                    <td class="label">:ZIP Code</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td class="label">:Email</td>
+                    <td><input type="email" size="30"></td>
+                </tr>
+    
+                <tr>
+                    <td class="label">:Sex</td>
+                    <td>
+                        <input type="radio" id="gender" name="gender" required>Male
+                        <input type="radio" id="gender" name="gender" required>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">:Language</td>
+                    <td><input type="checkbox" name="lang" id="lang" required>English
+                    <input type="checkbox" name="lang" id="lang">Non English</td>
+                </tr>
+                <tr>
+                    <td class="label">:About</td>
+                    <td><textarea name="" id="" cols="35" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" value="Submit" style="margin:10px 0  0 115px  ;"></td>
+                </tr>
+    
+            </table>
+        </form>
+    </div>
+</body>
+</html>

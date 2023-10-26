@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .label{
+            direction: rtl;
+        }
+        .task2{
+            background-color: orange;
+            padding: 3px;
+            border: 3px solid black;
+            width: 600px;
+        }
+        .text-white{
+            color: white;
+        }
+        td{
+            color: yellow;
+            line-height: 34px;
+        }
+        input{
+            /*  */
+            border-radius: 5px;
+            height: 25px;
+        }
+        .u-input{
+            width: 120px;  
+        }
+        .btn{
+            padding-left: 320px;
+            
+        }
+        .green-btn{
+            background-color: rgb(34, 197, 34);
+            height: 28px;
+            border-radius: 2px;
+            border: 0 solid rgb(189, 184, 184);
+
+        }
+        .red-btn{
+            background-color: rgb(252, 91, 91);
+            height: 28px;
+            border-radius: 2px;
+            border: 0 solid rgb(189, 184, 184);
+        }
+        .table-1{
+            padding: 0 0 10px 10px;
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="task2">
+        <form action="/task02.html">
+            <table class="table-1">
+                <tr><td class="text-white" style="padding-top: 5px;">Sign Up</td></tr>
+            </table>
+
+            <table style="background-color: black; width: 100%;">
+                <div class="main-content">
+                    <tr>
+                        <td class="label">:First Name</td>
+                        <td><input type="text" placeholder="Enter First Name" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">:Last Name</td>
+                        <td><input type="text" placeholder="Enter Second Name" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">:Screen Name</td>
+                        <td><input type="text" placeholder="Enter Screen Name" size="40"></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="label">Gender</td>
+                        <td>
+                            <select name="" id="" style="width: 82px;">
+                                <option value="May">May</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="May">1</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="May">1965</option>
+                            </select>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">:Gender</td>
+                        <td>
+                            <input type="radio" id="gender" name="gender" required>Male
+                            <input type="radio" id="gender" name="gender" required>Female
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="label">:Country</td>
+                        <td><select name="country" id="country" required style="width: 315px; height: 30px; border-radius: 3px;">
+                            <option value="null">Please select a country</option>
+                            <option value="bd">Bangladesh</option>
+                            <option value="bd">India</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="label">:E-mail </td>
+                        <td><input type="text" placeholder="Enter E-mail...."></td>
+                    </tr>
+                    <tr>
+                        <td class="label">:Phone</td>
+                        <td><input type="text" placeholder="Enter Phone...."></td>
+                    </tr>
+                    <tr>
+                        <td class="label">:Password</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td class="label">:Confirm Password</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="checkbox" name="terms" id="" required > <span style="line-height: normal;">I agree to the Terms of use</span>
+                        </td>
+                    </tr>
+                </div>
+            </table>
+            <table>
+                <tr>
+                    <td class="btn">
+                        <input type="button" value="Submit" class="green-btn text-white">
+                        <input type="reset" value="Cancel" class="red-btn text-white">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

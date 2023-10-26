@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .h-btn{
+        border: 0px solid black;
+        height: 40px;
+        background-color: rgb(152, 214, 186);
+    }
+
+    th,td{
+        text-align: left;
+        line-height: 30px;
+    }
+    .u-inp{
+        height: 22px;
+        width: 170px;
+    }
+    .header{
+        background-color: rgb(152, 214, 186);
+        width: 760px;
+    }
+    .main{
+        border: 5px solid black;
+        width: 760px;
+    }
+    .footer{
+        background-color: rgb(223, 229, 229);
+        width: 760px;
+        padding-left: 43%;
+    }
+    .btn{
+        color: white;
+        background-color: rgb(129, 173, 153);
+        padding: 3px 15px;
+        border: 0 solid ;
+    }
+    a{
+        color: black;
+    }
+</style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <form action="task4.html">
+            <table class="header">
+                <tr>
+                    <td><h2>Workshop Registration</h2></td>
+                    <td>
+                        <select name="action" id="action" class="h-btn" >
+                            <option value="" >More Actions</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <a href="" >Register now while seats are available!</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>First Name :</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Last Name :</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Company/Instituition :</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Address :</th>
+                                <td>
+                                  <textarea name="" id="" cols="20" rows="10"></textarea>  
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>City :</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                        <tr>
+                            <th>State/Province/Region :</th>
+                            <td>
+                                <select name="state" id="" class="u-inp">
+                                    <option value="null">select</option>
+                                    <option value="dhaka">Dhaka</option>
+                                    <option value="rajshahi">Rajshahi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Country :</th>
+                            <td>
+                                <select name="state" id="" class="u-inp">
+                                    <option value="null">select</option>
+                                    <option value="bd">Bangladesh</option>
+                                    <option value="ind">India</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Email :</th>
+                            <td>
+                                <input type="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Phone Number :</th>
+                            <td>
+                                <input type="number">
+                            </td>
+                        </tr>
+                        
+                        </table>
+                    </td>
+                    <td>
+                        <table class="r-tb">
+                            <tr>
+                                <td><a href="">Lunch</a></td>
+                            </tr>
+                            <tr>
+                                <th>Meal Preference </th>
+                                <td>
+                                  <select name="" id=""class="u-inp">
+                                    <option value="" >Vegetertian</option>
+                                    <option value="" >Non-Veg</option>
+                                  </select>  
+                                </td>
+                            </tr>
+                            <tr><td><a href="">Payment Details</a></td></tr>
+                            <tr>
+                                <th rowspan="3">Payment Mode </th>
+                                <td>
+                                    <input type="checkbox" name="" id="">Cash
+                                </td>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="" id="">Cheque
+                                    </td>  
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="" id="">Demand Draft
+                                    </td>  
+                                </tr>
+                            </tr>
+                            <tr>
+                                <th>DD/Cheque No.</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Drawn On (Bank Name)</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Payable at</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td>&nbsp;</td></tr>
+                            
+                        </table>
+    
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+    
+                    </td>
+                </tr>
+                
+            </table>
+            <table class="footer">
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2" >
+                        <input type="submit" value="Submit" class="btn">
+                        <input type="reset" value="Reset" class="btn">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
