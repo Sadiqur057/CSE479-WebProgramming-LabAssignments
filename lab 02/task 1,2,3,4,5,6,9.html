@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        td,
+        th,tr {
+            border: 1px solid black;
+
+        }
+        .box-1{
+            width: 320px;
+            height: 320px;
+            background-color: green;
+        }
+        .box-2{
+            width: 240px;
+            height: 240px;
+            background-color: red;
+            margin: auto;
+        }
+        .box-3{
+            width: 160px;
+            height: 160px;
+            background-color: yellow;
+            margin: auto;
+        }
+        .box-4{
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            margin: auto;
+        }
+        .box-5{
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            margin: auto;
+        }
+        .box-6{
+            width: 1px;
+            height: 1px;
+            background-color: black;
+            margin: auto;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2">About</th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <th>Males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td rowspan="2">40%</td>
+        </tr>
+        <tr>
+            <th>Females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+        </tr>
+        <tr>
+            <th>Others</th>
+            <td>1.5</td>
+            <td>0.00002</td>
+            <td>0.0001%</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table style="background-color: yellow;">
+        <tr>
+            <th style="background-color: red;">Column1</th>
+            <th>Column2</th>
+            <th>Column2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1 </td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+
+            <td>Row 1 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="/Image.jpg" alt=""></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">Top</td>
+        </tr>
+        <tr>
+            <td rowspan="2">way left</td>
+            <td>middle up</td>
+            <td rowspan="2">way right</td>
+        </tr>
+        <tr>
+            <td>middle down</td>
+        </tr>
+        <tr>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+    </table>
+    <br>
+    <table class="box-1">
+        <tr>
+            <td><table class="box-2">
+                <tr>
+                    <td>
+                        <table class="box-3">
+                            <td><table class="box-4">
+                                <td><table class="box-5">
+                                   <td></td>
+                                </table></td>
+                            </table></td>
+                        </table>
+                    </td>
+                </tr>
+
+            </table></td>
+        </tr>
+    </table>
+<br>
+    <table style="border-collapse: collapse;">
+        <tr>
+            <td>data 1</td>
+            <td>data 1</td>
+            <td>data 1</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td colspan="2">data 2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">data 1</td>
+            <td colspan="2">data 2</td>
+        </tr>
+        <tr>
+
+            <td colspan="2"style="border-bottom: 1px solid white
+            ;">data 1</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td colspan="2" >data 2</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="border-bottom: 1px solid
+            white;">data 3</td>
+            
+        </tr>
+        <tr>
+            <td colspan="3">data 3</td>
+        </tr>
+    </table>
+<br>
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+<br>
+
+    <br>
+    <table style="border-collapse: collapse;">
+        <tr>
+            <th style="background-color: rgb(198, 204, 211);">Item/Desc</th>
+            <th style="background-color: rgb(198, 204, 211);">Qty-</th>
+            <th style="background-color: rgb(198, 204, 211);">@</th>
+            <th style="background-color: rgb(198, 204, 211);">Price</th>
+        </tr>
+        <tr>
+            <td>Paperclips(box)</td>
+            <td>100</td>
+            <td>1.15</td>
+            <td>115.00</td>
+        </tr>
+        <tr>
+            <td>Paper(case)</td>
+            <td>10</td>
+            <td>45.99</td>
+            <td>459.90</td>
+        </tr>
+        <tr>
+            <td style="border-bottom: 1px solid white;">Wastepaper </td>
+            <td rowspan="2">100</td>
+            <td rowspan="2">1.15</td>
+            <td rowspan="2">115.00</td>
+        </tr>
+        <tr>
+            <td>Baskets(box)</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: rgb(198, 204, 211);">Subtotal</td>
+            <td>610.88</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: rgb(198, 204, 211);">Tax</td>
+            <td>7%</td>
+            <td>42.76</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: rgb(198, 204, 211);">Total</td>
+            <td>653.64</td>
+        </tr>
+    </table>
+</body>
+</html>
